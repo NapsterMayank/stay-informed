@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+# Stay Informed
 
-## Project info
+A modern web application built to help users stay informed with real-time information and updates.
 
-**URL**: https://lovable.dev/projects/605ac7dc-ac3c-4fb6-9adc-d1469842a7e1
+## 📋 Project Info
 
-## How can I edit this code?
+**Repository**: https://github.com/NapsterMayank/stay-informed
 
-There are several ways of editing your application.
+## 🚀 Getting Started
 
-**Use Lovable**
+### Prerequisites
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/605ac7dc-ac3c-4fb6-9adc-d1469842a7e1) and start prompting.
+- Node.js (v16 or higher) - [Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- npm or yarn package manager
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation & Development
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/NapsterMayank/stay-informed.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd stay-informed
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173` with hot module reloading enabled.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+```sh
+# Build the project
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Preview the production build locally
+npm run preview
+```
 
-## What technologies are used for this project?
+## 🛠 Tech Stack
 
-This project is built with:
+This project is built with modern web technologies:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Next generation frontend build tool
+- **React** - JavaScript library for building user interfaces
+- **TypeScript** - Typed JavaScript for better development experience
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn-ui** - High-quality React component library
 
-## How can I deploy this project?
+## 📁 Project Structure
 
-Simply open [Lovable](https://lovable.dev/projects/605ac7dc-ac3c-4fb6-9adc-d1469842a7e1) and click on Share -> Publish.
+```
+src/
+├── components/     # Reusable React components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions and helpers
+├── styles/        # Global styles
+└── App.tsx        # Main application component
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🔧 Development Workflow
 
-Yes, you can!
+### Making Changes
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+**Option 1: Using Your Local IDE**
+- Clone the repository and make changes locally
+- Run `npm run dev` to test your changes
+- Commit and push to your branch
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Option 2: Edit in GitHub**
+- Navigate to the file you want to edit
+- Click the pencil (Edit) icon
+- Make your changes and commit directly
+
+**Option 3: Use GitHub Codespaces**
+- Click the Code button on the repository page
+- Select the Codespaces tab
+- Click "New codespace"
+- Edit files and commit your changes
+
+## 📦 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run linter
+
+## 🌐 Deployment
+
+This project can be deployed to various platforms:
+
+- **Vercel** - Recommended for Vite projects
+- **Netlify** - Simple drag-and-drop deployment
+- **GitHub Pages** - Free hosting with GitHub
+- **Custom Domain** - Configure custom domains in your hosting provider
+
+## 📝 Contributing
+
+1. Create a new branch for your feature (`git checkout -b feature/amazing-feature`)
+2. Commit your changes (`git commit -m 'Add amazing feature'`)
+3. Push to the branch (`git push origin feature/amazing-feature`)
+4. Open a Pull Request
+
+## 📄 License
+
+This project is open source and available under the MIT License.
+
+## 🤝 Support
+
+For issues, questions, or suggestions, please open an issue on the GitHub repository.
